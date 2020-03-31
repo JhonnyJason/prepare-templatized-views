@@ -1,0 +1,286 @@
+{
+    "languageTag": "de",
+    "pageTitle": "Eventerei - Impressionen",
+    "pageLocale":"de_DE",
+    "pageURL":"https://eventerei.at/impressionen",
+    "pageDescription": "Sample Page Description",
+    "pageImageURL": "https://eventerei.at/img/logo.svg",
+    "pageType": "website",
+    "sharedContent": {
+        "menuLinkStart": "Start",
+        "menuLinkPortfilio": "Portfolio",
+        "menuLinkImpressionen": "Impressionen",
+        "menuLinkPartner": "Partner",
+        "menuLinkUbermich": "My Story",
+        "menuLinkFaq": "FAQ",
+        "menuLinkKontakt": "Kontakt",
+
+        "impressumLink": {
+            "text": "Impressum",
+            "ref": "/impressum.html"
+        },
+        "agbLink":{
+            "text": "AGB",
+            "ref": "/AGB.pdf"
+        },
+        "datenschutzLink": {
+            "text": "Datenschutz",
+            "ref": "/Datenschutz.pdf"
+        },
+
+        "contactBlockTitle": "Kontakt",
+        "contactBlockParagraph": "Eventerei - Sabina Wachmann, MA<br> Tel.: <a href='tel:+436646329357'> +43 (0)664 632 93 57</a> <br> E-Mail: <a href='mailto:sabina@eventerei.at'> sabina@eventerei.at</a>",
+        "contactAddressParagraph": "Lambergweg 9 <br> A-8041 Graz",
+
+        "copyrightBlockParagraph": "Copyright 2020"
+    },
+    "content": {
+        "pageQuoteQuote": "IMPRESSIONEN EVENTS & HOCHZEITEN",
+        "pageQuoteSignature": "Eventerei by Sabina Wachmann",
+        "testimonialEntries": [
+            "Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut.",
+            "Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut.",
+            "Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut.",
+            "Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut.",
+            "Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut Ax imus recest i as dolupta dolor porias utest , quis et ur, secum v olores di dolut ut."
+        ],
+        "impressionSections":[
+            {
+                "impressionDescriptionTitle": "Roses and Leafs",
+                "impressionDescriptionSubtitle": "Portfolio Portfolio Portfolio",
+                "impressionDescriptionParagraphs": [
+                    "Etusci dis quiatatquam, quuntur? Sol es nisse qu undae puda erumsimeaer umutmagnisas per um quissu mea quesitiamauteiurrehendidolupta pora eum quibus con niat ur ? Quidebit max  impo ressi mus es ei cian on sequi apiendan tut pedis exeos reescullupta plab int is nosandem"
+                ],
+                "impressionCreditsParagraphs": [
+                    "<b>ORGANISATION</b> Etusci Etusci",
+                    "<b>FOTOGRAFIE</b> Etusci Etusci Etusci",
+                    "<b>STYLIST</b> Etusci Etusci",
+                    "<b>WEDDING DESIGN</b> Etusci Etusci Etusci & Etusci Etusci Etusci Etusci Etusci",
+                    "<b>PAPETERIE</b> Etusci Etusci",
+                    "<b>FLORISTIK</b> Etusci Etusci",
+                    "<b>DEKORATION</b> Etusci Etusci",
+                    "<b>LOCATION</b> Etusci",
+                    "<b>MODELS</b> Etusci Etusci Etusci"
+                ],
+                "impressionImage1": {
+                    "url":"/img/impression1-image1.jpg",
+                    "thumbnailURL": "/img/impression1-image1-thumbnail.jpg"
+                },
+                "impressionImage2": {
+                    "url":"/img/impression1-image2.jpg",
+                    "thumbnailURL": "/img/impression1-image2-thumbnail.jpg"
+                },
+                "impressionImage3": {
+                    "url":"/img/impression1-image3.jpg",
+                    "thumbnailURL": "/img/impression1-image3-thumbnail.jpg"
+                },
+                "impressionImage4": {
+                    "url":"/img/impression1-image4.jpg",
+                    "thumbnailURL": "/img/impression1-image4-thumbnail.jpg"
+                }
+            },
+            {
+                "impressionDescriptionTitle": "Roses and Leafs 2",
+                "impressionDescriptionSubtitle": "Portfolio Portfolio Portfolio",
+                "impressionDescriptionParagraphs": [
+                    "Etusci dis quiatatquam, quuntur? Sol es nisse qu undae puda erumsimeaer umutmagnisas per um quissu mea quesitiamauteiurrehendidolupta pora eum quibus con niat ur ? Quidebit max  impo ressi mus es ei cian on sequi apiendan tut pedis exeos reescullupta plab int is nosandem"
+                ],
+                "impressionCreditsParagraphs": [
+                    "<b>ORGANISATION</b> Etusci Etusci",
+                    "<b>FOTOGRAFIE</b> Etusci Etusci Etusci",
+                    "<b>STYLIST</b> Etusci Etusci",
+                    "<b>WEDDING DESIGN</b> Etusci Etusci Etusci & Etusci Etusci Etusci Etusci Etusci",
+                    "<b>PAPETERIE</b> Etusci Etusci",
+                    "<b>FLORISTIK</b> Etusci Etusci",
+                    "<b>DEKORATION</b> Etusci Etusci",
+                    "<b>LOCATION</b> Etusci",
+                    "<b>MODELS</b> Etusci Etusci Etusci"
+                ],
+                "impressionImage1": {
+                    "url":"/img/impression2-image1.jpg",
+                    "thumbnailURL": "/img/impression2-image1-thumbnail.jpg"
+                },
+                "impressionImage2": {
+                    "url":"/img/impression2-image2.jpg",
+                    "thumbnailURL": "/img/impression2-image2-thumbnail.jpg"
+                },
+                "impressionImage3": {
+                    "url":"/img/impression2-image3.jpg",
+                    "thumbnailURL": "/img/impression2-image3-thumbnail.jpg"
+                },
+                "impressionImage4": {
+                    "url":"/img/impression2-image4.jpg",
+                    "thumbnailURL": "/img/impression2-image4-thumbnail.jpg"
+                }
+            },
+            {
+                "impressionDescriptionTitle": "Roses and Leafs 3",
+                "impressionDescriptionSubtitle": "Portfolio Portfolio Portfolio",
+                "impressionDescriptionParagraphs": [
+                    "Etusci dis quiatatquam, quuntur? Sol es nisse qu undae puda erumsimeaer umutmagnisas per um quissu mea quesitiamauteiurrehendidolupta pora eum quibus con niat ur ? Quidebit max  impo ressi mus es ei cian on sequi apiendan tut pedis exeos reescullupta plab int is nosandem"
+                ],
+                "impressionCreditsParagraphs": [
+                    "<b>ORGANISATION</b> Etusci Etusci",
+                    "<b>FOTOGRAFIE</b> Etusci Etusci Etusci",
+                    "<b>STYLIST</b> Etusci Etusci",
+                    "<b>WEDDING DESIGN</b> Etusci Etusci Etusci & Etusci Etusci Etusci Etusci Etusci",
+                    "<b>PAPETERIE</b> Etusci Etusci",
+                    "<b>FLORISTIK</b> Etusci Etusci",
+                    "<b>DEKORATION</b> Etusci Etusci",
+                    "<b>LOCATION</b> Etusci",
+                    "<b>MODELS</b> Etusci Etusci Etusci"
+                ],
+                "impressionImage1": {
+                    "url":"/img/impression3-image1.jpg",
+                    "thumbnailURL": "/img/impression3-image1-thumbnail.jpg"
+                },
+                "impressionImage2": {
+                    "url":"/img/impression3-image2.jpg",
+                    "thumbnailURL": "/img/impression3-image2-thumbnail.jpg"
+                },
+                "impressionImage3": {
+                    "url":"/img/impression3-image3.jpg",
+                    "thumbnailURL": "/img/impression3-image3-thumbnail.jpg"
+                },
+                "impressionImage4": {
+                    "url":"/img/impression3-image4.jpg",
+                    "thumbnailURL": "/img/impression3-image4-thumbnail.jpg"
+                }
+            }
+        ]
+    },
+    "images": {
+        "logoFrameRow": {
+            "name": "logo.svg",
+            "width":"180",
+            "height": "180"
+        },
+        "bannerImageRow": {
+            "name": "impressionen.jpg",
+            "width": "1920",
+            "height": "440"
+        },
+        "impressionSection1GalleryImage1": {
+            "name": "impression1-image1.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression1-image1-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection1GalleryImage2": {
+            "name": "impression1-image2.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression1-image2-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection1GalleryImage3": {
+            "name": "impression1-image3.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression1-image3-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection1GalleryImage4": {
+            "name": "impression1-image4.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression1-image4-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection2GalleryImage1": {
+            "name": "impression2-image1.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression2-image1-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection2GalleryImage2": {
+            "name": "impression2-image2.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression2-image2-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection2GalleryImage3": {
+            "name": "impression2-image3.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression2-image3-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection2GalleryImage4": {
+            "name": "impression2-image4.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression2-image4-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection3GalleryImage1": {
+            "name": "impression3-image1.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression3-image1-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection3GalleryImage2": {
+            "name": "impression3-image2.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression3-image2-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection3GalleryImage3": {
+            "name": "impression3-image3.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression3-image3-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        },
+        "impressionSection3GalleryImage4": {
+            "name": "impression3-image4.jpg",
+            "width": "1920",
+            "height": "1080",
+            "thumbnail": {
+                "name": "impression3-image4-thumbnail.jpg",
+                "width": "650",
+                "height": "350"    
+            }
+        }
+
+
+    }
+}

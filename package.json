@@ -1,8 +1,10 @@
 {
     "name": "prepare-templatized-views",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "This is the shit!",
     "scripts": {
+        "test-script": "cd testing && ./test.sh",
+        "test": "run-s -ns build test-script",
         "build-coffee": "coffee -o output/ -c sources/source/*/*.coffee",
         "watch-coffee": "coffee -o output/ -cw sources/source/*/*.coffee",
         "ncu-update": "ncu -u",

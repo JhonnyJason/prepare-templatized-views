@@ -1,0 +1,122 @@
+{
+    "languageTag": "de",
+    "pageTitle": "Eventerei - FAQ",
+    "pageLocale":"de_DE",
+    "pageURL":"https://eventerei.at/faq",
+    "pageDescription": "Sample Page Description",
+    "pageImageURL": "https://eventerei.at/img/logo.svg",
+    "pageType": "website",
+    "sharedContent": {
+        "menuLinkStart": "Start",
+        "menuLinkPortfilio": "Portfolio",
+        "menuLinkImpressionen": "Impressionen",
+        "menuLinkPartner": "Partner",
+        "menuLinkUbermich": "My Story",
+        "menuLinkFaq": "FAQ",
+        "menuLinkKontakt": "Kontakt",
+
+        "impressumLink": {
+            "text": "Impressum",
+            "ref": "/impressum.html"
+        },
+        "agbLink": {
+            "text": "AGB",
+            "ref": "/AGB.pdf"
+        },
+        "datenschutzLink":{
+            "text": "Datenschutz",
+            "ref": "/Datenschutz.pdf"
+        },
+
+        "contactBlockTitle": "Kontakt",
+        "contactBlockParagraph": "Eventerei - Sabina Wachmann, MA<br> Tel.: <a href='tel:+436646329357'> +43 (0)664 632 93 57</a> <br> E-Mail: <a href='mailto:sabina@eventerei.at'> sabina@eventerei.at</a>",
+        "contactAddressParagraph": "Lambergweg 9 <br> A-8041 Graz",
+
+        "copyrightBlockParagraph": "Copyright 2020"
+    },
+    "content": {
+        "pageQuoteQuote": "FAQ",
+        "pageQuoteSignature": "Eventerei by Sabina Wachmann",
+        
+        "quoteQuote": "Am Anfang der Frage steht die Suche nach der Antwort.",
+        "quoteAuthor": "Urs Laeuppi",
+
+        "introTitle": "Folgend finden Sie die wichtigsten Fragen zu Events & Hochzeiten.",
+        "faqHochzeitenQuestions": [
+            {
+                "questionTitle": "WARUM SOLL ICH EINEN HOCHZEITSPLANER BUCHEN?",
+                "answerParagraphs": [
+                    "Er plant in kontinuierlicher Absprache mit euch euren Tag nach euren Bedürfnissen und Wunschvorstellungen und wählt mit viel Liebe zum Detail Arrangements für euch aus. Die immer knapper werdende Freizeit vieler Brautpaare und der Wunsch, ausgefallene Designidee umzusetzen, machen einen Hochzeitsplaner zu einem unverzichtbaren Teil.",
+                    "Durch sein Netzwerk an qualitativ hochwertigen Dienstleistern sucht dieser Dienstleister aus, die passend zum Brautpaar und zum Budget sind. Er steht in ständigem Ausstand mit den Dienstleistern, sodass ein reibungsloser Ablauf garantiert ist. Gemeinsam mit seinem Team aus Dienstleistern ist er am Tag eurer Hochzeit bereits beim Aufbau Ansprechperson für alle Fragen – so könnt ihr euren Tag entspannt genießen. Das zuvor mit euch festgelegte Budget behält der Hochzeitsplaner stets im Blick und setzt dieses effektiv ein."
+                ]
+            },
+            {
+                "questionTitle": "WAS KOSTET DIE DIENSTLEISTUNG EINES HOCHZEITSPLANERS?",
+                "answerParagraphs": [
+                    "Das Honorar eines Hochzeitsplaners ist natürlich abhängig von der jeweiligen Dienstleitungsqualität. Die Aufgabe eines Hochzeitsplaners ist das Controlling des Budgets, sowie das effektive einsetzten dieses. Weiters verfügt ein guter Hochzeitsplaner über ein großes Netzwerk an Dienstleistern, die er jeweils nach euren Wünschen euren Wünschen nach auswählt."
+                ]
+            },
+            {
+                "questionTitle": "ICH HABE EIN KLEINERES BUDGET.<br> KANN ICH TROTZDEM EINEN HOCHZEITSPLANER BUCHEN?",
+                "answerParagraphs": [
+                    "Unbedingt – auch mit kleinem Budget lässt sich ein wunderschöner Tag planen. Mit Tipps und Tricks stehe ich euch zur Seite und setze euer Hochzeitsbudget effektiv ein und überwache dieses mit größter Sorgfalt. Mein Netzwerk an Dienstleistern erlaubt es mir, das „perfect Match“ für euch und euer Budget zu finden. Auch mit einem kleinen Budget können Hochzeiten mit viel Charme umgesetzt werden."
+                ]
+            },
+            {
+                "questionTitle": "WANN SOLL ICH EINEN HOCHZEITSPLANER BUCHEN?",
+                "answerParagraphs": [
+                    "Grundsätzlich empfiehlt sich die Kontaktaufnahme 1 Jahr vor der Hochzeit, um genügend Zeit für die Ideenphase einplanen zu können. Weiters sind beliebte Monate zwischen Mai und Oktober sehr beliebt und Wunschlocations gerne 2 Jahre im Voraus ausgebucht. Gerne suche ich die Herausforderung und freue mich auch auf eine Kontaktaufnahme bei kurzfristigen Hochzeiten."
+                ]
+            },
+            {
+                "questionTitle": "IHR WOLLT EUCH STANDESAMTLICH,<br> ALLERDINGS NICHT KIRCHLICH TRAUEN LASSEN?",
+                "answerParagraphs": [
+                    "Ihr seid bereits geschieden, habt unterschiedliche Glaubensrichtungen oder seid aus der Kirche ausgetreten? Dann ist die „freie Trauung“ die perfekte Möglichkeit für euch, um euren Tag einen ganz besonderen Rahmen zu geben. Das tolle daran ist, dass hier keine Grenzen gesetzt sind. Ob im Wasser, in der Luft, am Berg oder im Wald – eine freie Trauung ist orts- und inhaltsungebunden. Bitte beachten: Rechtlich gesehen ist eine freie Trauung nicht gültig, somit bleibt euch der Gang zum Standesamt nicht erspart."
+                ]
+            },
+            {
+                "questionTitle": "ICH HABE EIGENE IDEEN – DARF ICH DIESE AUCH EINBRINGEN?",
+                "answerParagraphs": [
+                    "Unbedingt, das sollt ihr sogar. Es ist euer Tag, der nach euren Vorstellungen, Wünschen und Ideen, gemeinsam mit euch geplant und umgesetzt wird. Gemeinsam werden wir eure Ideen in Wirklichkeit umsetzen."
+                ]
+            }
+
+        ],
+        "faqEventsQuestions": [
+            {
+                "questionTitle": "WAS KOSTET EIN EVENTPLANER?",
+                "answerParagraphs": [
+                    "Nachdem jedes Event ein individuelles Erlebnis ist, kann dies pauschal nicht beantwortet werden. Der Preis ist je nach Aufwand und Leistungen abhängig. Gerne erstelle ich für Sie ein individuelles Angebot."
+                ]
+            },
+            {
+                "questionTitle": "ICH HABE BEREITS EIN EVENTKONZEPT,<br> KANN ICH TROTZDEM DIE EVENTEREI BUCHEN?",
+                "answerParagraphs": [
+                    "Natürlich! Gerne berate ich Sie im Vorfeld und stehe bei Fragen zur Verfügung. Am Tag der Veranstaltung bin ich bereits beim Aufbau vor Ort und bin Ansprechperson für Dienstleister, Location, Gäste uvm. Jede Veranstaltung wird von mir so betreut, als ob es mein eigene wäre, darauf haben Sie mein Wort."
+                ]
+            },
+            {
+                "questionTitle": "KANN ICH DIE EVENTEREI BUCHEN,<br> WENN ICH HILFE IM EVENTMARKETING BENÖTIGE?",
+                "answerParagraphs": [
+                    "Absolut – heutzutage bedarf es einer ausgeklügelten Event-Marketing-Strategie, um firmen- oder produktbezogene Veranstaltungen zielgerichtet vermarkten zu können, und der Zielgruppe ein emotionales und ansprechendes Erlebnis bieten zu können."
+                ]
+            }       
+        ],
+        "calltoactionTitle": "Noch Fragen offen?",
+        "calltoaction":{
+            "ref": "/kontakt.html" 
+        }
+    },
+    "images": {
+        "logoFrameRow": {
+            "name": "logo.svg",
+            "width":"180",
+            "height": "180"
+        },
+        "bannerImageRow": {
+            "name": "faq.jpg",
+            "width": "1920",
+            "height": "440"
+        }
+    }
+}
