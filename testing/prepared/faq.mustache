@@ -1,0 +1,1229 @@
+<!DOCTYPE html><html lang="{{{languageTag}}}"><head>
+    <meta charset="utf-8">
+    <title>{{{pageTitle}}}</title>
+    <meta name="description" content="{{{pageDescription}}}">
+    <meta property="og:image" content="{{{pageImageURL}}}">
+    <meta property="og:title" content="{{{pageTitle}}}">
+    <meta property="og:description" content="{{{pageDescription}}}">
+    <meta property="og:type" content="{{{pageType}}}">
+    <meta property="og:image" content="{{{pageImageURL}}}">
+    <meta property="og:url" content="{{{pageURL}}}">
+    <meta property="og:locale" content="{{{pageLocale}}}">
+    <link rel="manifest" href="data:application/manifest+json,{&quot;name&quot;:&quot;{{{pageTitle}}}&quot;, &quot;short_name&quot;: &quot;Eventerei&quot;, &quot;description&quot;: &quot;{{{pageDescription}}}&quot;, &quot;start_url&quot;:&quot;{{{pageURL}}}&quot;, &quot;background_color&quot;: &quot;rgba(255,255,255,1)&quot;, &quot;theme_color&quot;: &quot;rgba(255,255,255,1)&quot;, &quot;icons&quot;: [ { &quot;src&quot;: &quot;/android-chrome-192x192.png&quot;, &quot;sizes&quot;: &quot;192x192&quot;, &quot;type&quot;: &quot;image/png&quot; } ], &quot;display&quot;: &quot;standalone&quot;, &quot;orientation&quot;: &quot;portrait&quot; }">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+section,
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+#intro h1#intro-line,
+.faq-section h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  transition: 0.2s ease-in-out;
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+}
+strong {
+  font-weight: bold;
+}
+b {
+  font-weight: bold;
+}
+i {
+  font-style: italic;
+}
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  line-height: normal;
+  overflow: visible;
+}
+input:focus,
+input[type="checkcbox"]:focus {
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  line-height: normal;
+  overflow: visible;
+}
+textarea:focus {
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  line-height: normal;
+  overflow: visible;
+}
+select:focus {
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  line-height: normal;
+  overflow: visible;
+}
+button:hover,
+input[type="submit"]:hover {
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  line-height: normal;
+  overflow: visible;
+}
+@font-face {
+  font-family: "SourceSans Light";
+  src: url("/font/SourceSansPro-Light.ttf.woff2");
+}
+@font-face {
+  font-family: "SourceSans Regular";
+  src: url("/font/SourceSansPro-Regular.ttf.woff2");
+}
+@font-face {
+  font-family: "SourceSans Semibold";
+  src: url("/font/SourceSansPro-Semibold.ttf.woff2");
+}
+@font-face {
+  font-family: "SourceSans Bold";
+  src: url("/font/SourceSansPro-Bold.ttf.woff2");
+}
+@font-face {
+  font-family: "SourceSans Bold Italic";
+  src: url("/font/SourceSansPro-BoldIt.ttf.woff2");
+}
+@font-face {
+  font-family: "Lora Regular";
+  src: url("/font/Lora-Regular.ttf");
+}
+@font-face {
+  font-family: "Lora Bold";
+  src: url("/font/Lora-Bold.ttf");
+}
+body {
+  color: #000;
+  width: 100%;
+}
+h1 {
+  font-family: "SourceSans Bold";
+  font-size: 16pt;
+  letter-spacing: 3pt;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+h2,
+#intro h1#intro-line,
+.faq-section h1 {
+  font-family: "SourceSans Bold";
+  font-size: 15pt;
+  letter-spacing: 1.5pt;
+  line-height: 150%;
+}
+p {
+  font-family: "SourceSans Light";
+  font-size: 10pt;
+  letter-spacing: 1pt;
+  line-height: 150%;
+}
+.quote-font,
+.bigquote h1,
+#page-quote-row h1 {
+  font-family: "Lora Bold";
+  font-size: 30pt;
+  letter-spacing: 5pt;
+  line-height: 150%;
+}
+.quote-author-font,
+.bigquote h2,
+#page-quote-row h2 {
+  font-family: "SourceSans Regular";
+  font-size: 11pt;
+  letter-spacing: 1.8pt;
+  line-height: 150%;
+}
+.footer-title,
+#contact-block h1 {
+  font-family: "SourceSans Bold";
+  font-size: 10pt;
+  letter-spacing: 1.8pt;
+  line-height: 150%;
+}
+.footer-line,
+#contact-block p {
+  font-family: "SourceSans Regular";
+  font-size: 10pt;
+  letter-spacing: 1.8pt;
+  line-height: 150%;
+}
+.footer-line-small,
+#footer-links-block a,
+#copyright-block p {
+  font-family: "SourceSans Bold";
+  font-size: 7pt;
+  letter-spacing: 1.8pt;
+  line-height: 150%;
+}
+.inner-content,
+.bigquote {
+  margin: auto;
+  max-width: 750px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.max-content,
+.separator-line {
+  margin: auto;
+  max-width: 950px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.separator-line {
+  height: 1px;
+  background-color: #dde3e8;
+}
+.centered-absolute-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-absolute-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.centered-absolute-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.full-background-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contained-background-image,
+#calltoaction a,
+#faq-hochzeiten-image,
+#faq-events-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-width: 970px) {
+  .max-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 770px) {
+  .inner-content,
+  .bigquote {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.bigquote {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+.bigquote h2 {
+  text-transform: uppercase;
+}
+#footer {
+  background-color: #dde3e8;
+  color: #fff;
+}
+#footer-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+}
+#contact-block {
+  text-align: right;
+  transition: background 0.4s;
+}
+#contact-block h1 {
+  margin-bottom: 20px;
+}
+#contact-block #contact-address {
+  margin-top: 20px;
+}
+#social-media-block {
+  align-self: start;
+  justify-self: center;
+  text-align: center;
+}
+#social-media-block #facebook-icon {
+  display: inline-block;
+  background-image: url("/img/facebook-icon.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+}
+#social-media-block #instagram-icon {
+  display: inline-block;
+  background-image: url("/img/instagram-icon.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+#footer-links-block {
+  align-self: end;
+}
+#footer-links-block a {
+  margin-right: 7px;
+}
+#up-button-block {
+  justify-self: center;
+  align-self: center;
+}
+#up-button-block #up-button {
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #4b7062;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+#up-button-block #up-arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #4b7062;
+}
+#copyright-block {
+  text-align: right;
+  align-self: end;
+}
+#copyright-block p {
+  line-height: 150%;
+}
+@media screen and (max-width: 660px) {
+  #footer-content {
+    grid-template-columns: auto;
+    grid-row-gap: 50px;
+  }
+  #contact-block {
+    text-align: center;
+  }
+  #more-information-block {
+    text-align: center;
+  }
+  #footer-links-block {
+    text-align: center;
+  }
+}
+#header {
+  background-color: #fff;
+}
+#logo-frame-row {
+  background-image: url("/img/logo.svg");
+  background-color: #8ceef2;
+  height: 180px;
+  width: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#menu #burger {
+  display: none;
+  background-image: url("/img/burger-icon.svg");
+  width: 30px;
+  height: 30px;
+}
+#menu .menu-link {
+  text-transform: uppercase;
+  font-family: "Lora Regular";
+  font-size: 12pt;
+  letter-spacing: 0.9pt;
+}
+#banner-image-row {
+  height: 440px;
+  width: 100%;
+  background-color: #8ceef2;
+  background-position: center;
+  background-size: cover;
+}
+#page-quote-row {
+  padding: 0;
+  background-color: #dde3e8;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#page-quote-row h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#page-quote-row h2 {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 750px) {
+  #menu {
+    flex-direction: column;
+  }
+  #menu .menu-link {
+    padding: 10px;
+    text-align: center;
+  }
+  #menu.collapsed .menu-link {
+    display: none;
+  }
+  #menu.collapsed #burger {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+}
+#menu-link-faq {
+  font-family: "Lora Bold" !important;
+  color: #dde3e8;
+}
+#banner-image-row {
+  background-image: url("/img/faq.jpg");
+}
+#intro h1#intro-line {
+  color: #727d89;
+  font-family: "SourceSans Semibold";
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#intro #intro-underline {
+  background-color: #8fb0aa;
+  height: 1px;
+  width: 100%;
+}
+#calltoaction {
+  margin-top: 120px;
+  margin-bottom: 180px;
+  text-align: center;
+}
+#calltoaction h1 {
+  color: #4b7062;
+  font-family: "SourceSans Semibold";
+}
+#calltoaction a {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  background-image: url("/img/contact-button.svg");
+  cursor: pointer;
+}
+.faq-section {
+  margin-top: 90px;
+}
+.faq-section h1 {
+  color: #4b7062;
+  margin-bottom: 0px;
+}
+.faq-section p {
+  color: #727d89;
+}
+.faq-section .faq-line {
+  height: 1px;
+  width: 100%;
+  background-color: #8fb0aa;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+#faq-hochzeiten-image {
+  height: 60px;
+  width: 200px;
+  background-image: url("/img/faq-hochzeiten.svg");
+  margin-bottom: 5px;
+  background-position: left;
+}
+#faq-events-image {
+  height: 60px;
+  width: 200px;
+  background-image: url("/img/faq-events.svg");
+  margin-bottom: 5px;
+  background-position: left;
+}
+
+    </style>
+    <script>/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./toolset/build/js/faq.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ "./toolset/build/js/allmodules.js":
+/*!****************************************!*\
+  !*** ./toolset/build/js/allmodules.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _configmodule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./configmodule */ "./toolset/build/js/configmodule.js");
+/* harmony import */ var _debugmodule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./debugmodule */ "./toolset/build/js/debugmodule.js");
+/* harmony import */ var _footermodule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footermodule */ "./toolset/build/js/footermodule.js");
+/* harmony import */ var _footermodule__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footermodule__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _headermodule__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./headermodule */ "./toolset/build/js/headermodule.js");
+/* harmony import */ var _headermodule__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_headermodule__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _vanillautilmodule__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./vanillautilmodule */ "./toolset/build/js/vanillautilmodule.js");
+/* harmony import */ var _vanillautilmodule__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_vanillautilmodule__WEBPACK_IMPORTED_MODULE_4__);
+// Generated by CoffeeScript 2.5.1
+var Modules;
+
+
+
+
+
+
+
+
+
+
+
+Modules = {configmodule: _configmodule__WEBPACK_IMPORTED_MODULE_0__["default"], debugmodule: _debugmodule__WEBPACK_IMPORTED_MODULE_1__["default"], footermodule: (_footermodule__WEBPACK_IMPORTED_MODULE_2___default()), headermodule: (_headermodule__WEBPACK_IMPORTED_MODULE_3___default()), vanillautilmodule: (_vanillautilmodule__WEBPACK_IMPORTED_MODULE_4___default())};
+
+/* harmony default export */ __webpack_exports__["default"] = (Modules);
+
+
+/***/ }),
+
+/***/ "./toolset/build/js/configmodule.js":
+/*!******************************************!*\
+  !*** ./toolset/build/js/configmodule.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// Generated by CoffeeScript 2.5.1
+var configmodule, log;
+
+configmodule = {
+  name: "configmodule",
+  uimodule: false
+};
+
+//region logPrintFunctions
+log = function(arg) {
+  if (allModules.debugmodule.modulesToDebug["configmodule"] != null) {
+    console.log("[configmodule]: " + arg);
+  }
+};
+
+//endregion
+//#######################################################
+configmodule.initialize = function() {
+  log("configmodule.initialize");
+};
+
+
+//region exposedProperties
+configmodule.exampleURL = 'https://example.website.at';
+
+//endregion
+/* harmony default export */ __webpack_exports__["default"] = (configmodule);
+
+
+/***/ }),
+
+/***/ "./toolset/build/js/debugmodule.js":
+/*!*****************************************!*\
+  !*** ./toolset/build/js/debugmodule.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// Generated by CoffeeScript 2.5.1
+var debugmodule;
+
+debugmodule = {
+  name: "debugmodule",
+  uimodule: false
+};
+
+//####################################################
+debugmodule.initialize = function() {};
+
+// console.log "debugmodule.initialize - nothing to do"
+debugmodule.modulesToDebug = {
+  unbreaker: true
+};
+
+// configmodule: true
+// headermodule: true
+/* harmony default export */ __webpack_exports__["default"] = (debugmodule);
+
+
+/***/ }),
+
+/***/ "./toolset/build/js/faq.js":
+/*!*********************************!*\
+  !*** ./toolset/build/js/faq.js ***!
+  \*********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var _allmodules__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allmodules */ "./toolset/build/js/allmodules.js");
+// Generated by CoffeeScript 2.5.1
+var appStartup;
+
+
+
+global.allModules = _allmodules__WEBPACK_IMPORTED_MODULE_0__["default"];
+
+window.onload = async function() {
+  var m, n, promises;
+  promises = (function() {
+    var results;
+    results = [];
+    for (n in _allmodules__WEBPACK_IMPORTED_MODULE_0__["default"]) {
+      m = _allmodules__WEBPACK_IMPORTED_MODULE_0__["default"][n];
+      results.push(m.initialize());
+    }
+    return results;
+  })();
+  await Promise.all(promises);
+  return appStartup();
+};
+
+appStartup = function() {};
+
+//# which modules shall be kickstarted?
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./toolset/build/js/footermodule.js":
+/*!******************************************!*\
+  !*** ./toolset/build/js/footermodule.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Generated by CoffeeScript 2.5.1
+(function() {
+  var footermodule, log, print, upButton, upButtonClicked, utl;
+
+  footermodule = {
+    name: "footermodule"
+  };
+
+  //region modulesFromTheEnvironment
+  utl = null;
+
+  //endregion
+
+  //region HTMLElements
+  upButton = null;
+
+  //endregion
+
+  //region printLogFunctions
+  //#############################################################################
+  log = function(arg) {
+    if (allModules.debugmodule.modulesToDebug["footermodule"] != null) {
+      console.log("[footermodule]: " + arg);
+    }
+  };
+
+  print = function(arg) {
+    return console.log(arg);
+  };
+
+  //endregion
+  //#############################################################################
+  footermodule.initialize = function() {
+    log("footermodule.initialize");
+    utl = allModules.vanillautilmodule;
+    upButton = document.getElementById("up-button");
+    upButton.addEventListener("click", upButtonClicked);
+  };
+
+  
+  //region internalFunctions
+  upButtonClicked = function() {
+    log("upButtonClicked");
+    utl.scrollTo(0);
+  };
+
+  //endregion
+
+  //region exposedFunctions
+  //endregion
+  module.exports = footermodule;
+
+}).call(this);
+
+
+/***/ }),
+
+/***/ "./toolset/build/js/headermodule.js":
+/*!******************************************!*\
+  !*** ./toolset/build/js/headermodule.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Generated by CoffeeScript 2.5.1
+(function() {
+  var headermodule, isCollapsed, log, menuClicked, onScroll, print, utl;
+
+  headermodule = {
+    name: "headermodule"
+  };
+
+  //region modulesFromTheEnvironment
+  utl = null;
+
+  //endregion
+
+  //region printLogFunctions
+  //#############################################################################
+  log = function(arg) {
+    if (allModules.debugmodule.modulesToDebug["headermodule"] != null) {
+      console.log("[headermodule]: " + arg);
+    }
+  };
+
+  print = function(arg) {
+    return console.log(arg);
+  };
+
+  //endregion
+  //#############################################################################
+  headermodule.initialize = function() {
+    log("headermodule.initialize");
+    utl = allModules.vanillautilmodule;
+    document.addEventListener("scroll", onScroll);
+    menu.addEventListener("click", menuClicked);
+  };
+
+  //region internalProperties
+  isCollapsed = false;
+
+  //endregion
+
+  //region internalFunctions
+  onScroll = function() {
+    log("onScroll");
+    if (isCollapsed) {
+      return;
+    }
+    menu.classList.add("collapsed");
+    isCollapsed = true;
+  };
+
+  menuClicked = function() {
+    log("menuClicked");
+    if (!isCollapsed) {
+      return;
+    }
+    menu.classList.remove("collapsed");
+    isCollapsed = false;
+  };
+
+  //endregion
+
+  //region exposedFunctions
+  //endregion
+  module.exports = headermodule;
+
+}).call(this);
+
+
+/***/ }),
+
+/***/ "./toolset/build/js/vanillautilmodule.js":
+/*!***********************************************!*\
+  !*** ./toolset/build/js/vanillautilmodule.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Generated by CoffeeScript 2.5.1
+(function() {
+  var alertScrollend, easings, log, print, vanillautilmodule;
+
+  vanillautilmodule = {
+    name: "vanillautilmodule"
+  };
+
+  //region modulesFromTheEnvironment
+  //endregion
+
+  //region easingsDefinition
+  easings = {
+    linear: function(t) {
+      return t;
+    },
+    easeInQuad: function(t) {
+      return t * t;
+    },
+    easeOutQuad: function(t) {
+      return t * (2 - t);
+    },
+    easeInOutQuad: function(t) {
+      if (t < 0.5) {
+        return 2 * t * t;
+      } else {
+        return -1 + (4 - (2 * t)) * t;
+      }
+    },
+    easeInCubic: function(t) {
+      return t * t * t;
+    },
+    easeOutCubic: function(t) {
+      return --t * t * t + 1;
+    },
+    easeInOutCubic: function(t) {
+      if (t < 0.5) {
+        return 4 * t * t * t;
+      } else {
+        return (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+      }
+    },
+    easeInQuart: function(t) {
+      return t * t * t * t;
+    },
+    easeOutQuart: function(t) {
+      return 1 - (--t * t * t * t);
+    },
+    easeInOutQuart: function(t) {
+      if (t < 0.5) {
+        return 8 * t * t * t * t;
+      } else {
+        return 1 - (8 * --t * t * t * t);
+      }
+    },
+    easeInQuint: function(t) {
+      return t * t * t * t * t;
+    },
+    easeOutQuint: function(t) {
+      return 1 + --t * t * t * t * t;
+    },
+    easeInOutQuint: function(t) {
+      if (t < 0.5) {
+        return 16 * t * t * t * t * t;
+      } else {
+        return 1 + 16 * --t * t * t * t * t;
+      }
+    }
+  };
+
+  //endregion
+
+  //region printLogFunctions
+  //#############################################################################
+  log = function(arg) {
+    if (allModules.debugmodule.modulesToDebug["vanillautilmodule"] != null) {
+      console.log("[vanillautilmodule]: " + arg);
+    }
+  };
+
+  print = function(arg) {
+    return console.log(arg);
+  };
+
+  //endregion
+  //#############################################################################
+  vanillautilmodule.initialize = function() {
+    log("vanillautilmodule.initialize");
+  };
+
+  
+  //region internalFunctions
+  alertScrollend = function() {
+    return alert("Scoll ended!");
+  };
+
+  //endregion
+
+  //region exposedFunctions
+  vanillautilmodule.scrollTo = function(destination, duration = 400, easing = 'easeInOutQuad', callback) {
+    var getScrollOffset, scroll, start, startTime;
+    start = window.pageYOffset;
+    startTime = 'now' in window.performance ? performance.now() : (new Date()).getTime();
+    getScrollOffset = function() {
+      var destinationOffset, documentHeight, windowHeight;
+      destinationOffset = typeof destination === 'number' ? destination : destination.offsetTop;
+      documentHeight = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
+      windowHeight = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+      return Math.round(documentHeight - destinationOffset < windowHeight ? documentHeight - windowHeight : destinationOffset);
+    };
+    scroll = function() {
+      var now, scrollOffset, time, timeFunction;
+      scrollOffset = getScrollOffset();
+      now = 'now' in window.performance ? performance.now() : (new Date()).getTime();
+      time = Math.min(1, (now - startTime) / duration);
+      timeFunction = easings[easing](time);
+      window.scroll(0, Math.ceil(timeFunction * (scrollOffset - start) + start));
+      if (now >= (startTime + duration)) {
+        if (callback) {
+          callback();
+        }
+        return;
+      }
+      requestAnimationFrame(scroll);
+    };
+    scroll();
+  };
+
+  //endregion
+  module.exports = vanillautilmodule;
+
+}).call(this);
+
+
+/***/ })
+
+/******/ });
+    </script>
+  {{{headInclude}}}
+</head>
+  <body>
+    <div id="header"> 
+      <div id="logo-frame-row"></div>
+      <div id="menu-row">
+        <div class="max-content" id="menu"><a class="menu-link" id="menu-link-start" href="/">{{{sharedContent.menuLinkStart}}}</a><a class="menu-link" id="menu-link-portfolio" href="/portfolio.html">{{{sharedContent.menuLinkPortfilio}}}</a><a class="menu-link" id="menu-link-impressionen" href="/impressionen.html">{{{sharedContent.menuLinkImpressionen}}} </a><a class="menu-link" id="menu-link-partner" href="/partner.html">{{{sharedContent.menuLinkPartner}}}</a><a class="menu-link" id="menu-link-ubermich" href="/ubermich.html">{{{sharedContent.menuLinkUbermich}}}</a><a class="menu-link" id="menu-link-faq" href="/faq.html">{{{sharedContent.menuLinkFaq}}}</a><a class="menu-link" id="menu-link-kontakt" href="/kontakt.html">{{{sharedContent.menuLinkKontakt}}}</a>
+          <div id="burger"></div>
+        </div>
+      </div>
+      <div id="banner-image-row"></div>
+      <div id="page-quote-row">
+        <div class="inner-content">
+          <h1>{{{content.pageQuoteQuote}}}</h1>
+          <h2>{{{content.pageQuoteSignature}}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="bigquote">
+      <h1>{{{content.quoteQuote}}}</h1>
+      <h2>{{{content.quoteAuthor}}}</h2>
+    </div>
+    <div class="max-content" id="intro">
+      <h1 id="intro-line">{{{content.introTitle}}}</h1>
+      <div id="intro-underline"></div>
+    </div>
+    <div class="faq-section max-content" id="faq-hochzeiten">
+      <div id="faq-hochzeiten-image"></div>
+      <h1>{{{content.faqHochzeitenQuestions.0.questionTitle}}} </h1>
+      <p>{{{content.faqHochzeitenQuestions.0.answerParagraphs.0}}}</p>
+      <p>{{{content.faqHochzeitenQuestions.0.answerParagraphs.1}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqHochzeitenQuestions.1.questionTitle}}} </h1>
+      <p>{{{content.faqHochzeitenQuestions.1.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqHochzeitenQuestions.2.questionTitle}}} </h1>
+      <p>{{{content.faqHochzeitenQuestions.2.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqHochzeitenQuestions.3.questionTitle}}} </h1>
+      <p>{{{content.faqHochzeitenQuestions.3.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqHochzeitenQuestions.4.questionTitle}}} </h1>
+      <p>{{{content.faqHochzeitenQuestions.4.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqHochzeitenQuestions.5.questionTitle}}} </h1>
+      <p>{{{content.faqHochzeitenQuestions.5.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+    </div>
+    <div class="faq-section max-content" id="faq-events">
+      <div id="faq-events-image"></div>
+      <h1>{{{content.faqEventsQuestions.0.questionTitle}}} </h1>
+      <p>{{{content.faqEventsQuestions.0.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqEventsQuestions.1.questionTitle}}} </h1>
+      <p>{{{content.faqEventsQuestions.1.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+      <h1>{{{content.faqEventsQuestions.2.questionTitle}}} </h1>
+      <p>{{{content.faqEventsQuestions.2.answerParagraphs.0}}}</p>
+      <div class="faq-line"></div>
+    </div>
+    <div class="max-content" id="calltoaction">
+      <h1>{{{content.calltoactionTitle}}}</h1><a id="calltoaction-button" href="{{{content.calltoaction.ref}}}"></a>
+    </div>
+    <div id="footer">
+      <div class="max-content" id="footer-content">
+        <div class="grid-space"></div>
+        <div id="social-media-block">
+          <div id="social-media-icons"><a id="instagram-icon" href="#instagram"></a><a id="facebook-icon" href="#facebook"></a></div>
+          <div id="footer-links-block">
+            <p class="footer-links notes"><a id="impressum-link" href="{{{sharedContent.impressumLink.ref}}}">{{{sharedContent.impressumLink.text}}}</a><a id="agb-link" href="{{{sharedContent.agbLink.ref}}}" target="_blank">{{{sharedContent.agbLink.text}}}</a><a id="datenschutz-link" href="{{{sharedContent.datenschutzLink.ref}}}" target="_blank">{{{sharedContent.datenschutzLink.text}}}</a></p>
+          </div>
+        </div>
+        <div id="contact-block">
+          <h1>{{{sharedContent.contactBlockTitle}}}</h1>
+          <p>{{{sharedContent.contactBlockParagraph}}}</p>
+          <div id="contact-address">
+            <p>{{{sharedContent.contactAddressParagraph}}}</p>
+          </div>
+        </div>
+        <div class="grid-space"></div>
+        <div id="up-button-block">
+          <div id="up-button">
+            <svg id="up-arrow" viewBox="0 0 50 50">
+              <polygon points="48.05 25.84 24.03 0 0 25.84 7.74 33.04 18.75 21.2 18.75 49.92 29.31 49.92 29.31 21.2 40.32 33.04 48.05 25.84"/>
+            </svg>
+          </div>
+        </div>
+        <div id="copyright-block">
+          <p class="notes" id="copyright-line">{{{sharedContent.copyrightBlockParagraph}}}</p>
+        </div>
+      </div>
+    </div>
+  
+{{{adminPanel}}}
+{{{scriptInclude}}}
+</body></html>
